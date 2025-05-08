@@ -137,7 +137,17 @@ int main()
             }
             break;
     
-            
+            case '2':
+            {
+                if (mhs.listEmpty())
+                {
+                    cout << endl
+                         << "List Kosong" << endl;
+                    break;
+                }
+                cout << endl
+                
+            } 
         }
     }
 }
