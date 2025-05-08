@@ -180,7 +180,16 @@ int main()
                     cout << "\n";
                 }
             }
-            
+            break;
+            case '5':
+            {
+                exit(0);
+            }
+            break;
+            default:
+            {
+                cout << "Piliha salah !." << endl;
+            }
         }
     }
 }
