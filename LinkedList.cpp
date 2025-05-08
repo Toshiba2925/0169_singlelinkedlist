@@ -8,12 +8,12 @@ public:
     Node *next;
 };
 
-class List
+class SingleLinkList
 {
     Node *START;
     
 public:
-    List()
+    SingleLinkList()
     {
         START = NULL;
     }
@@ -99,7 +99,7 @@ public:
         }
         else
         {
-            cout << "\nData didalam List adalah:\n";
+            cout << "\nData didalam SingleLinkList adalah:\n";
             Node *currentNode = START;
             while (currentNode != NULL)
             {
@@ -113,7 +113,7 @@ public:
 
 int main()
 {
-    List mhs;
+    SingleLinkList mhs;
     int nim;
     char ch;
     while (1)
@@ -142,7 +142,7 @@ int main()
                 if (mhs.listEmpty())
                 {
                     cout << endl
-                         << "List Kosong" << endl;
+                         << "SingleLinkList Kosong" << endl;
                     break;
                 }
                 cout << endl
