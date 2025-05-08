@@ -190,6 +190,7 @@ int main()
             {
                 cout << "Piliha salah !." << endl;
             }
+            break;
         }
     }
 }
